@@ -1,0 +1,183 @@
+woocommerce hooks hierarchy
+
+-----------------
+
+
+Here is a general overview of the main hooks hierarchy in WooCommerce:
+
+Action Hooks:
+
+woocommerce_before_main_content: Outputted before the main content area.
+
+woocommerce_before_single_product: Outputted before the single product content.
+
+woocommerce_after_single_product: Outputted after the single product content.
+
+woocommerce_after_main_content: Outputted after the main content area.
+
+woocommerce_sidebar: Outputted in the sidebar (if enabled).
+
+woocommerce_before_shop_loop: Outputted before the product loop.
+
+woocommerce_after_shop_loop: Outputted after the product loop.
+
+woocommerce_before_shop_loop_item: Outputted before the product in the loop.
+
+woocommerce_after_shop_loop_item: Outputted after the product in the loop.
+
+woocommerce_before_cart: Outputted before the cart.
+
+woocommerce_after_cart: Outputted after the cart.
+
+woocommerce_before_checkout_form: Outputted before the checkout form.
+
+woocommerce_after_checkout_form: Outputted after the checkout form.
+
+woocommerce_before_cart_table: Outputted before the cart table.
+
+woocommerce_after_cart_table: Outputted after the cart table.
+
+woocommerce_before_cart_contents: Outputted before the cart contents.
+
+woocommerce_after_cart_contents: Outputted after the cart contents.
+
+woocommerce_cart_actions: Outputted after the cart actions.
+
+woocommerce_before_shipping_calculator: Outputted before the shipping calculator.
+
+woocommerce_after_shipping_calculator: Outputted after the shipping calculator.
+
+woocommerce_review_order_before_payment: Outputted before the review order table.
+
+woocommerce_review_order_after_payment: Outputted after the review order table.
+
+woocommerce_before_thankyou: Outputted before the thank you page.
+
+woocommerce_after_thankyou: Outputted after the thank you page.
+
+Filter Hooks:
+
+woocommerce_show_page_title: Control whether to display the page title on WooCommerce pages.
+
+woocommerce_page_title: Modify the page title.
+
+woocommerce_breadcrumb_defaults: Customize breadcrumb defaults.
+
+woocommerce_breadcrumb_home_url: Change the breadcrumb home URL.
+
+woocommerce_breadcrumb_single_product_title: Modify the breadcrumb for single product pages.
+
+woocommerce_breadcrumb_before_output: Output content before the breadcrumb.
+
+woocommerce_breadcrumb_after_output: Output content after the breadcrumb.
+
+woocommerce_breadcrumb_output: Modify the full breadcrumb output.
+
+woocommerce_get_breadcrumb: Filter the entire breadcrumb array.
+
+woocommerce_product_get_rating_html: Modify the product rating HTML.
+
+woocommerce_output_product_data_tabs: Output the product data tabs.
+
+woocommerce_product_description_heading: Modify the product description tab heading.
+
+woocommerce_product_additional_information_heading: Modify the additional information tab heading.
+
+woocommerce_product_reviews_heading: Modify the product reviews tab heading.
+
+woocommerce_product_tabs: Modify the product tabs array.
+
+woocommerce_product_review_comment_form_args: Modify the comment form arguments on the reviews tab.
+
+woocommerce_product_related_posts_query: Modify the related products query.
+
+woocommerce_product_related_posts: Modify the related products.
+
+woocommerce_product_cross_sells_total: Set the number of cross-sell products to display.
+
+woocommerce_cross_sells_total: Set the default number of cross-sell products to display.
+
+woocommerce_output_related_products_args: Modify the related products arguments.
+
+woocommerce_related_products_args: Modify the related products arguments.
+
+woocommerce_review_gravatar_size: Modify the size of the gravatar in reviews.
+
+woocommerce_review_rating: Modify the review rating.
+
+woocommerce_review_display_gravatar: Control whether to display the gravatar in reviews.
+
+woocommerce_review_display_rating: Control whether to display the rating in reviews.
+
+woocommerce_review_display_meta: Control whether to display the review metadata.
+
+woocommerce_review_display_comment_text: Control whether to display the review comment text.
+
+woocommerce_review_gravatar_rating: Modify the gravatar rating in reviews.
+
+woocommerce_review_allow_images: Control whether to allow images in reviews.
+
+woocommerce_get_variation_price: Modify the variation price.
+
+woocommerce_get_variation_regular_price: Modify the variation regular price.
+
+woocommerce_get_variation_sale_price: Modify the variation sale price.
+
+woocommerce_variation_option_name: Modify the variation option name.
+
+woocommerce_variation_prices: Modify the variation prices.
+
+woocommerce_cart_needs_payment: Determine if the cart needs payment.
+
+woocommerce_cart_totals_coupon_label: Modify the coupon label in cart totals.
+
+woocommerce_coupon_message: Modify the coupon applied message.
+
+woocommerce_coupon_error: Modify the coupon error message.
+
+woocommerce_coupon_message_excluded_products: Modify the excluded products message.
+
+woocommerce_coupon_get_discount_amount: Modify the discount amount for a coupon.
+
+woocommerce_coupon_get_discount_tax_amount: Modify the discount tax amount for a coupon.
+
+woocommerce_coupon_get_discount_taxable: Modify whether a coupon is taxable.
+
+woocommerce_coupon_get_discount_type: Modify the discount type for a coupon.
+
+woocommerce_coupon_get_free_shipping: Determine if a coupon grants free shipping.
+
+woocommerce_coupon_get_individual_use: Determine if a coupon is for individual use only.
+
+woocommerce_coupon_get_minimum_amount: Modify the minimum spend amount for a coupon.
+
+woocommerce_coupon_get_maximum_amount: Modify the maximum spend amount for a coupon.
+
+woocommerce_coupon_get_product_ids: Modify the product IDs for a coupon.
+
+woocommerce_coupon_get_product_categories: Modify the product categories for a coupon.
+
+woocommerce_coupon_get_excluded_product_ids: Modify the excluded product IDs for a coupon.
+
+woocommerce_coupon_get_excluded_product_categories: Modify the excluded product categories for a coupon.
+
+woocommerce_coupon_get_product_ids_to_exclude: Modify the product IDs to exclude for a coupon.
+
+woocommerce_coupon_get_product_categories_to_exclude: Modify the product categories to exclude for a coupon.
+
+woocommerce_coupon_get_email_restrictions: Modify the email restrictions for a coupon.
+
+woocommerce_coupon_get_used_by: Modify the number of times a coupon has been used by a user.
+
+woocommerce_coupon_get_limit_usage_to_x_items: Modify the usage limit per item for a coupon.
+
+woocommerce_coupon_get_limit_usage_to_x_items_total: Modify the usage limit for a coupon.
+
+woocommerce_coupon_get_date_expires: Modify the expiration date for a coupon.
+
+woocommerce_coupon_get_apply_before_tax: Determine if a coupon should be applied before tax.
+
+
+
+
+

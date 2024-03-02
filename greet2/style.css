@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: #303030;
+    font-weight: bold;
+    /* font-style: normal; */
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+
+.image {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.description {
+    text-align: center;
+    padding: 16px 0;
+}
+
+
+.description p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #303030;
+    
+
+}
+
+.table1 {
+    max-width: 1200px;
+    min-height: 339px;
+    overflow: hidden;
+    padding: 40px;
+    margin: 35px auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    
+}
+
+.name {
+    padding-bottom: 20px;
+}
+
+.name span {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 0 20px;
+}
+
+
+
+.box1 {
+    text-align: center;
+    float: left;
+    border: 2px solid #efefef;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
+    padding: 25px 80px;
+}
+
+
+
+.corner-box {
+    width: 285px;
+    text-align: center;
+    float: left;
+    border: 2px solid #efefef;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
+    padding: 25px 10px 25px 10px;
+
+}
+
+.number-box {
+    font-size: 24px;
+    font-weight: 900;
+    border: 2px solid #efefef;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
+    padding: 10px 10px;
+    width: 215px;
+}
+
+.design-table {
+    min-height: 210px;
+}
+
+
+
+/* 
+    --------------
+    table form  head
+    --------------
+*/
+
+
+.form-table {
+    min-height: 742px;
+    border: none;
+    overflow: hidden;
+    max-width: 1200px;
+    padding: 40px;
+    margin: 35px auto;
+    background-color: #ffffff;
+    
+}
+
+.table-heading-title {
+    /* margin-top: 15px; */
+    background: #fff;
+    /* padding: 40px 40px 20px 40px; */
+
+    float: left;
+    /* clear: both; */
+    width: 100%;
+    /* margin: 20px 0 0 0; */
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.table-heading-subtitle {
+    font-size: 16px;
+    /* font-family: montserrat,sans-serif; */
+
+    float: left;
+    /* clear: both; */
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-weight: 400;
+}
+
+
+
+/* 
+    --------------
+    table form  body
+    --------------
+*/
+
+
+ /* table {
+    width: 100%;
+    margin-top: 80px;
+    border-spacing: 7px;
+    border-collapse: collapse;
+
+}
+
+table thead tr th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+
+tbody tr td {
+    text-align: center;
+    padding: 15px 15px; 
+    /* border-top: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black; */
+    
+    /* border: 1px solid black; */
+    
+    /* margin: 5px 5px; */
+    
+
+
+.row-head {
+    /* font-size: 16px; */
+    /* max-width: 90%;
+    display: flex;
+    justify-content: space-between; */
+
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+
+}
+
+
+.head-col {
+
+    width: 25%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #303030;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    line-height: 27px;
+    text-align: center;
+}
+
+
+.price-table {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price-item {
+    display: flex;
+    border: 1px #efefef solid;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.price-item-1 {
+    display: flex;
+    width: 80%;
+}
+
+.price-content {
+    width: 31.1%;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #303030;
+    text-align: center;
+}
+
+.price-item-2 {
+    width: 20%;
+    text-align: center;
+}
+
+.price-item-price {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 27px;
+    color: #303030;
+}
+
+
+.clear-all-selection {
+    padding: 16px 10px 10px 10px;
+}
+
+.clear-all-selection-text {
+    text-decoration: underline;
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: right;
+    padding: 4.5px 25px;
+    cursor: pointer;
+}
+
+ 
+
+.contact-us-info-text {
+
+    padding-bottom: 55px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
